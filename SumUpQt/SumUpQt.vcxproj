@@ -57,10 +57,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'">
     <OutDir>$(SolutionDir)Win32</OutDir>
     <IntDir>$(Configuration)</IntDir>
+    <IncludePath>$(MSBuildProjectDirectory)\Controls\;$(MSBuildProjectDirectory)\Modules\;$(MSBuildProjectDirectory)\QtTest\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">
     <OutDir>$(SolutionDir)Win32</OutDir>
     <IntDir>$(Configuration)</IntDir>
+    <IncludePath>$(MSBuildProjectDirectory)\Controls\;$(MSBuildProjectDirectory)\Modules\;$(MSBuildProjectDirectory)\QtTest\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Win32'" Label="Configuration">
     <ClCompile>
@@ -88,6 +90,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="QtTest\hw_widget_0124.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtTest\hw_widget_0124.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
