@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QMenuBar>
+	<QMenu text="文件(F)">
+		<QMenu text="新建(N)">
+			<QAction text="项目(P)..." icon="" obj="file_new_project" shortcut="Ctrl+Shift+N"/>
+			<QAction text="仓库(R)..." icon=""/>
+			<QAction text="文件(F)..." icon=""/>
+			<QAction text="从现有代码创建项目(E)..." icon=""/>
+		</QMenu>
+		<QMenu text="打开(O)">
+			<QAction text="项目/解决方案(P)..." icon=""/>
+			<QAction text="文件夹(D)..." icon=""/>
+			<QAction text="网站(E)..." icon=""/>
+			<QAction text="CMake(M)..." icon=""/>
+			<QSeprator/>
+			<QAction text="文件(F)..." icon=""/>
+		</QMenu>
+		<QAction text="克隆存储库(E)..." icon=""/>
+		<QAction text="启动窗口(W)" icon=""/>
+		<QSeprator/>
+		<QMenu text="添加(D)">
+			<QAction text="新建项目(N)..." icon=""/>
+			<QAction text="现有项目(E)..." icon=""/>
+			<QSeprator/>
+			<QAction text="现有网站(B)..." icon=""/>
+		</QMenu>
+		<QSeprator/>
+		<QAction text="关闭(C)" icon=""/>
+		<QAction text="关闭解决方案(W)" icon=""/>
+		<QSeprator/>
+		<QAction text="启动Live Share会话" icon=""/>
+		<QAction text="加入Live Share会话..." icon=""/>
+		<QSeprator/>
+		<QAction text="保存ch_title_bar.cpp(S)" icon=""/>
+		<QAction text="ch_title_bar.cpp另存为(A)..." icon=""/>
+		<QAction text="全部保存(L)" icon=""/>
+		<QSeprator/>
+		<QAction text="页面设置(U)..." icon=""/>
+		<QAction text="打印(P)..." icon=""/>
+		<QSeprator/>
+		<QAction text="账户设置(I)" icon=""/>
+		<QSeprator/>
+		<QMenu text="最近使用过的文件(F)">
+		</QMenu>
+		<QMenu text="最近使用过的项目和解决方案(J)">
+		</QMenu>
+		<QSeprator/>
+		<QMenu text="将ch_title_bar.cpp移入(I)">
+		</QMenu>
+		<QSeprator/>
+		<QAction text="退出(X)" icon="" obj="file_exit" shortcut="Ctrl+X"/>
+		<QAction text="更新样式" icon="" obj="file_update_style" shortcut="Ctrl+W"/>
+	</QMenu>
+	<QMenu text="编辑(E)">
+		<QMenu text="转到(G)">
+			<QAction text="转到行(G)..." icon=""/>
+			<QAction text="转到所有(G)..." icon=""/>
+			<QAction text="转到文件(F)..." icon=""/>
+			<QAction text="转到最近的文件(R)..." icon=""/>
+			<QAction text="转到类型(T)..." icon=""/>
+			<QAction text="转到成员(M)..." icon=""/>
+			<QAction text="转到符号(S)..." icon=""/>
+			<QSeprator/>
+			<QAction text="转到文件中的下一个问题(N)..." icon=""/>
+			<QAction text="转到文件中的上个问题(P)..." icon=""/>
+			<QAction text="转到上一个编辑位置(E)..." icon=""/>
+		</QMenu>
+		<QMenu text="查找和替换(F)">
+			<QAction text="快速查找(F)" icon=""/>
+			<QAction text="快速替换(R)" icon=""/>
+			<QAction text="在文件中查找(I)" icon=""/>
+			<QAction text="在文件中替换(S)" icon=""/>
+			<QSeprator/>
+			<QAction text="文件(F)..." icon=""/>
+		</QMenu>
+		<QSeprator/>
+		<QAction text="撤销(R)" icon=""/>
+		<QAction text="撤销上一个全局操作(N)" icon=""/>
+		<QAction text="重做上一全局操作(L)" icon=""/>
+		<QSeprator/>
+		<QAction text="剪切(T)" icon=""/>
+		<QAction text="复制(C)" icon=""/>
+		<QAction text="粘贴(P)" icon=""/>
+		<QAction text="显示剪切板历史记录(Y)" icon=""/>
+		<QAction text="复制(E)" icon=""/>
+		<QAction text="删除(D)" icon=""/>
+		<QSeprator/>
+		<QAction text="全选(A)" icon=""/>
+		<QSeprator/>
+		<QAction text="将文件作为文本插入(X)" icon=""/>
+		<QMenu text="高级(F)">
+			<QAction text="设置文档的格式(A)" icon=""/>
+			<QAction text="设置选定内容的格式(F)" icon=""/>
+			<QAction text="将选定行中的空格替换为制表符(T)" icon=""/>
+			<QAction text="将选定行中的制表符替换为空格(S)" icon=""/>
+			<QAction text="转换为大写(U)" icon=""/>
+			<QAction text="转换为小写(L)" icon=""/>
+			<QAction text="将选定行上移(P)" icon=""/>
+			<QAction text="将选定行下移(N)" icon=""/>
+			<QAction text="删除水平空白(H)" icon=""/>
+			<QAction text="将选定内容扩展到包含块(B)" icon=""/>
+			<QAction text="展开选定内容(X)" icon=""/>
+			<QAction text="收缩选定内容(T)" icon=""/>
+			<QAction text="查看空白(W)" icon=""/>
+			<QAction text="自动换行(R)" icon=""/>
+			<QAction text="渐进式搜索(S)" icon=""/>
+			<QAction text="切换行注释(L)" icon=""/>
+			<QAction text="切换块注释(B)" icon=""/>	
+			<QAction text="对行排序" icon=""/>
+			<QAction text="联接行" icon=""/>
+			<QAction text="下一个子字" icon=""/>
+			<QAction text="上一个子字" icon=""/>
+			<QAction text="注释选定内容(M)" icon=""/>
+			<QAction text="取消注释选定内容(E)" icon=""/>
+			<QAction text="增加行缩进(I)" icon=""/>	
+			<QAction text="减少行缩进(D)" icon=""/>	
+			<QAction text="设置行尾序列(S)" icon=""/>	
+			<QAction text="设置缩进(S)" icon=""/>		
+		</QMenu>
+	</QMenu>
+	<QMenu text="视图(V)">
+	</QMenu>
+	<QMenu text="Git(G)">
+	</QMenu>
+	<QMenu text="项目(P)">
+	</QMenu>
+	<QMenu text="生成(B)">
+	</QMenu>
+	<QMenu text="调试(D)">
+	</QMenu>
+	<QMenu text="测试(S)">
+	</QMenu>
+	<QMenu text="分析(N)">
+	</QMenu>
+	<QMenu text="工具(T)">
+	</QMenu>
+	<QMenu text="扩展(X)">
+	</QMenu>
+	<QMenu text="窗口(W)">
+	</QMenu>
+	<QMenu text="帮助(H)">
+	</QMenu>
+</QMenuBar>
+

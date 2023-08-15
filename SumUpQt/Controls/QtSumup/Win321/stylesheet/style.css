@@ -1,0 +1,124 @@
+
+*{
+	color:white;
+	font-family:Microsoft Yahei;
+}
+
+QMainWindow#app_main{
+	background-color:rgba(31,31,31);
+}
+
+QMainWindow#app_main #title_bar{
+	background-color:#rgba(255,0,0,50);
+}
+
+/*
+QMainWindow#app_main #title_bar #tb_min,#tb_max,#tb_close{
+	background-color:transparent;
+}
+*/
+
+/*
+QMainWindow#app_main #title_bar QToolButton{
+	background-color:rgba(0,0,255,100);
+}
+
+QMainWindow#app_main #title_bar QMenuBar{
+	margin-left:5px;
+	background-color:rgba(0,250,0,100);
+}
+QMainWindow#app_main #title_bar QMenuBar::item{
+	padding:2px 16px 2px 16px;
+	background-color:rgba(0,250,0,0);
+}
+QMainWindow#app_main #title_bar QMenuBar::item:selected{
+	border:2px solid #707070;
+	background-color:rgba(61,61,61,255);
+}
+*/
+
+
+QMainWindow#app_main #title_bar QToolButton{
+	width:36px;
+	height:20px;
+	icon-size:14px;
+	background-color:rgba(0,0,255,50);
+}
+QMainWindow#app_main #title_bar #tb_icon{
+	width:20px;
+	height:20px;
+	icon-size:20px;
+}
+
+QMainWindow#app_main #title_bar QMenuBar{
+	margin-left:5px;
+	background-color:rgba(0,250,0,0);
+}
+QMainWindow#app_main #title_bar QMenuBar::item{
+	/*padding:4px 16px 4px 16px;*/
+	background-color:rgba(0,250,0,0);
+}
+QMainWindow#app_main #title_bar QMenuBar::item:selected{
+	border:1px solid #707070;
+	background-color:rgba(61,61,61,255);
+}
+
+
+
+QMenu{
+	background-color:#2e2e2e;
+}
+QMenu::item{
+	background-color:#2e2e2e;
+}
+QMenu::item:selected{
+	background-color:#3d3d3d;
+}
+QMenu::separator{
+	height:2px;
+	margin-top:3px;
+	margin-bottom:3px;
+	background:#3d3d3d;
+}
+
+QWidget#tb_search {
+	margin-top:3px;
+	padding:2px 0px 0px 0px;
+	border:1px solid rgba(70,70,70);
+	background-color:#383838;
+}
+
+QWidget#tb_search:hover {
+	padding:0px 0px 0px 0px;
+	border:1px solid #999999;
+}
+
+QWidget#tb_search:hover
+,QWidget#tb_search QLineEdit:hover
+{
+	background-color:#1f1f1f;
+}
+
+QWidget#tb_search QLineEdit{
+	width:140px;
+	height:20px;
+	padding:1px 0px 1px 0px;
+	border:none;
+	background-color:transparent;
+}
+
+QWidget#tb_search QToolButton{
+	height:22px;
+	border:none;
+}
+
+QWidget#tb_search QToolButton:pressed{
+	padding:0;
+}
+
+/*
+QMenu {background-color:rgba(17,24,47,1);border:1px solid rgba(82,130,164,1);}\
+ QMenu::item {min-width:100px;font-size: 12px;color: rgb(225,225,225);background:rgba(75,120,154,0.5);border:1px solid rgba(82,130,164,1);padding:1px 1px;margin:1px 1px;}\
+ QMenu::item:selected {background:rgba(82,130,164,1);border:1px solid rgba(82,130,164,1);} \
+ QMenu::item:pressed {background:rgba(82,130,164,0.4);border:1px solid rgba(82,130,164,1);};
+ */
